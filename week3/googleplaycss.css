@@ -1,0 +1,159 @@
+#header {
+float : left;
+width : 100%;
+height : 50px;
+background-color : #EEEEEE;
+
+}
+#header > div:nth-child(1) img{
+	margin-left : 9.5px;
+}
+#header div, ul, li{
+display : inline-block;
+float : left;
+}
+#header  ul{
+	margin-left : 100px;
+}
+#header ul > li:nth-child(1) a{
+font-size : 13px;
+color : black;
+}
+#header ul > li:nth-child(2) img{
+	margin-top:10.5px;
+}
+#header ul > li:nth-child(3) img{
+	margin-top:11px;
+}
+#header ul > li:nth-child(4) a{
+color : black;
+font-size : 15px;
+background-color : #E0E0E0;
+
+}
+#header ul > li:nth-child(5) img{
+margin-top: 7px;
+}
+
+#header > ul a{
+	margin-right : 15px;
+	line-height : 50px;
+}
+#search{
+	margin-left : 20px;
+}
+
+#search input{
+width : 589px;
+height : 22px;
+margin-top : 11px;
+}
+
+#search img{
+height : 28px;
+width : 60px;
+		margin-top : 11px;
+}
+
+#navigator {
+float : left;
+width : 100%;
+height : 50px;
+position : relative;
+}
+#navigator > div:nth-child(1) img{
+width : 196px;
+height : 50px;
+}  /*포지셔닝 어떻게할까..*/
+line-height : 50px;
+}
+#menu li{
+margin-left : 40px;
+color : #636363;
+}
+#menu li a{
+color : #636363;
+}
+
+#navigator > div > ul:nth-child(2){
+margin-left : 570px;
+}
+#navigator > div > ul:nth-child(2) img{
+margin-left : 15px;
+margin-top : 14px;
+}
+
+#left_col{
+float : left;
+background-color : #F0F0F0;
+width : 196px;
+height : 300px;
+}
+
+#aside{
+float : left;
+background-color : #DFDFDF;
+width : 196px;
+height : 962px;
+}
+
+#section{
+background-color : #DFDFDF;
+float : left;
+width: 1053px;
+}
+
+#bestSeller > div{
+margin-top : 40px;
+margin-left : 40px;
+}
+#bestSellerList{
+float : left;
+margin-left : 30px;
+}
+#bestSellerList >li{
+float : left;
+margin-left: 10px; 
+width : 160px;
+height : 330px;
+display : inline-block;
+overflow : hidden;
+}
+#bestSellerList > li dl{
+background-color : white;
+}
+#section img{
+width : 160px;
+height : 245px;
+}
+
+#special{
+float : left;
+display : inline-block;
+margin-left: 30px;
+margin-top : 40px;
+}
+#special > div{
+margin-left : 10px;
+}
+
+#specialBookList > li{
+float : left;
+margin-left : 10px;
+width : 160px;
+height: 330px;
+display : inline-block;
+overflow : hidden;
+}
+
+#specialBookList > li dl{
+	background-color : white;
+}
+
+
+
+#footer{
+float : left;
+width : 1053px;
+		background-color : #DFDFDF;
+}
