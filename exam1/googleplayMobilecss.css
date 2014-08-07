@@ -1,0 +1,332 @@
+body{
+min-width : 320px;
+background-color : #DFDFDF;
+}
+
+header {
+position : relative;
+width : 100%;
+height : 40px;
+background-color : white;
+}
+
+header img{
+	height : 35px;
+}
+
+#headerWrapper{
+width : 100%
+min-width : 320px;
+}
+
+.categoryButton{
+float : left;
+margin-left : 1%;
+}
+
+.logo{
+width : 140px;
+margin : 0 auto;
+}
+
+.searchButton{
+float : right;
+margin-right : 1%;
+}
+
+nav{
+position : relative;
+width : 100%;
+height : 50px;
+background-color : #DFDFDF;
+border-top : 3px solid #D7D7D7;
+}
+#navWrapper{
+width : 100%
+height : 50px;
+min-width : 320px;
+}
+#navWrapper div{
+width : 80px;
+height : 36px;
+background-color : white;
+border : 2px solid #D7D7D7;
+text-align : center;
+line-height : 42px;
+border-radius : 5px;
+font-size : 14px;
+color : #4A4A4A;
+}
+.myBook{
+float : left;
+	margin-left : 5%;
+}
+.newBook{
+margin : 0 auto;
+}
+.bestSeller{
+float : right;
+	margin-right : 5%;
+}
+
+section{
+width : 100%;
+position : relative;
+background-color : #DFDFDF;
+}
+#sectionWrapper{
+min-width : 360px;
+overflow : hidden;
+}
+.sectionTitle h1{
+font-size : 24px;
+}
+.sectionTitle h2{
+font-size : 14px;
+}
+.title{
+float : left; 
+}
+.more{
+background-color : #1B8EDA;
+font-size : 12px;
+color : white;
+float : right;
+width : 50px;
+height : 25px;
+border-radius : 3px;
+text-align : center;
+line-height : 30px;
+margin-right : 25px;
+}
+.sectionTitle{
+min-width : 360px;
+margin-left : 30px;
+}
+.bookList{
+clear : both;
+min-width : 360px;
+width : 100%;
+}
+.book1, .book2, .book3, .book4{
+display : inline-block;
+width : 155px;
+height : 320px;
+border-radius : 3px;
+background-color : #F3F3F3;
+margin-top : 8px;
+}
+
+.book1, .book3{
+float : left;
+		margin-left : 5%;
+}
+
+.book2, .book4{
+float : right;
+margin-right : 5%;
+}
+
+
+.bookInformation{
+background-color : white;
+width : 141px;
+height : 60px;
+padding : 7px;
+border-radius : 3px;
+}
+
+.bookInformation dt{
+font-size : 16px;
+color : black;
+height : 17px;
+overflow : hidden;
+}
+.bookInformation > ul > dd:nth-child(2){
+font-size : 13px;
+color : #D7D7D7;
+}
+
+.bookInformation > ul > dd:nth-child(3){
+color : #2E9BDE;
+font-size : 13px;
+float : right;
+margin-top : 17px;
+}
+
+.bookList img{
+width : 155px;
+height : 230px;
+margin-top : 7px;
+margin-bottom : 8px;
+}
+
+.overlay{
+position : absolute;
+top : 0;
+width : 100%;
+height : 100%;
+background-color : black;
+opacity : 0;
+display : inline-block;
+}
+
+.bookList .overlay:hover{
+opacity : 0.3;
+}
+
+#section1{
+float : left;
+width : 50%;
+min-width : 320px;
+}
+#section2{
+float : right;
+width : 50%;
+min-width : 320px;
+}
+
+.bookList > .bookListWrapper{
+margin : 0 auto;
+width : 100%;
+height : 350px;
+		 vertical-align : middle;
+}
+
+#section2 .bookListWrapper{
+background-image : url(http://i.imgur.com/QaGUZ9g.png);
+background-size : 100% 100%;
+}
+
+#sectionMoreWrapper{
+position : relative;
+width : 100%;
+min-width : 360px;
+height : 80px;
+clear : both;
+}
+
+.sectionMore{
+position : absolute;
+top : 0px;
+left : 0px;
+right : 0px;
+bottom : 0px;
+color : #8A8A8A;
+background-color : white;
+width : 70px;
+height : 30px;
+font-size : 15px;
+line-height : 30px;
+text-align : center;
+border-radius : 3px;
+border : 1px solid #CDCDCD;
+margin : auto auto;
+
+}
+
+footer{
+width : 100%;
+height : auto;
+}
+
+#footerWrapper{
+min-width : 360px;
+}
+
+.footerMenu{
+font-size : 13px;
+color : #434343;
+}
+
+.footerMenu a{
+font-size : 12px;
+color : #8A8A8A;
+margin-left : 7px; 
+}
+
+.footerMenu a:hover, .information a:hover{
+text-decoration : underline;
+}
+
+.information, .legalNotification{
+font-size : 13px;
+color : #434343;
+}
+
+.information > a{
+color : #434343;
+font-size : 13px;
+}
+
+@media (min-width : 1000px){
+.wow{
+background-image : url(http://i.imgur.com/tf1qe2N.png);
+background-size : 100% 100%;
+margin : 0 auto;
+width : 80%;
+height : 320px;
+}
+.wow2 {
+background-image : url(http://i.imgur.com/jo3GRuZ.png);
+background-size : 100% 100%;
+margin : 0 auto;
+width : 80%;
+height : 320px;
+}
+}
+
+
+@media (max-width : 750px) {
+#section1, #section2{
+float : none;
+margin : 0 auto;
+width : 100%;
+margin-bottom : 20px;
+}
+.wow {
+background-image : url(http://i.imgur.com/tf1qe2N.png);
+background-size : 100% 100%;
+margin : 0 auto;
+width : 80%;
+height : 320px;
+}
+.wow2 {
+background-image : url(http://i.imgur.com/jo3GRuZ.png);
+background-size : 100% 100%;
+margin : 0 auto;
+width : 80%;
+height : 320px;
+}
+}
+
+@media (max-width : 500px){
+.wow {
+background-image : none;
+}
+.wow2{
+background-image : none;
+}
+}	
+
+
+/*
+@media (min-width : 1000px){
+.wow{
+background-image : url(http://i.imgur.com/tf1qe2N.png);
+background-size : 100% 100%;
+margin : 0 auto;
+width : 80%;
+height : 320px;
+}
+.wow2 {
+background-image : url(http://i.imgur.com/jo3GRuZ.png);
+background-size : 100% 100%;
+margin : 0 auto;
+width : 80%;
+height : 320px;
+}
+}
+*/
+
+
