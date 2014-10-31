@@ -1,0 +1,299 @@
+body{
+margin : 0px;
+background-color : #EEEEEE;
+}
+
+header {
+position : relative;
+width : 100%;
+height : 50px;
+background-color : #EEEEEE;
+}
+
+#header_Wrapper{
+min-width : 700px;
+overflow : hidden;
+}
+
+.logo{
+float : left;
+margin-left : 9.5px;
+}
+
+.icon{
+height : 50px;
+width : 250px;
+float : right;
+margin-right : 30px;
+}
+
+.icon span{
+float : left;
+margin-left : 15px;
+}
+
+.icon > span:nth-child(1) a,
+.icon > span:nth-child(4) a{
+line-height : 50px;
+margin-left : 10px;
+color : #6D6D6D;
+}
+
+.icon img{
+margin-top : 8px;
+}
+.searchBox{
+margin-left : 50px;
+float : left;
+width : 40%;
+}
+.searchBox input{
+width : 100%;
+height : 22px;
+margin-top : 11px;
+display : inline-block;
+}
+
+.searchButton img{
+float : left;
+height : 28px;
+width : 58px;
+margin-top : 11px;
+display : inline-block;
+}
+
+#navigator{
+z-index : 10;
+position : relative;
+width : 100%;
+height : 45px;
+overflow : hidden;
+background-color : white;
+}
+#navigator > span{
+float : left;
+}
+
+.book img{
+float : left;
+height : 50px;
+width: 196px;
+}
+
+#navigator div{
+display : inline-block;
+float : left;
+}
+
+#genre{
+display : none;
+z-index : 10;
+float : left;
+position : fixed;
+background-color : white;
+width : 200px;
+height : 350px;
+border-radius : 3px;
+overflow : scroll;
+box-shadow : 10px 10px 10px #BFBFBF;
+}
+#genre > li{
+height : 30px;
+}
+#genre > li > a{
+font-size : 13px;
+color : black;
+}
+
+.menu{
+float : left;
+margin-left : 40px;
+line-height : 50px;
+color : #AEAEAE;
+font-size : 14px;
+}
+
+.menu a, .menu > span:nth-child(2){
+color : #AEAEAE;
+font-size : 14px;
+margin-left : 18px;
+}
+
+.setting img{
+display : inline-block;
+margin-left : 10px;
+margin-top : 10px;
+}
+
+.setting{
+float : left;
+margin-left : 600px;
+}
+
+#navigator_Wrapper{
+min-width : 1280px;
+}
+#asideAndSection{
+position : relative;
+}
+#aside{
+position : absolute;
+background-color : #F3F3F3;
+width : 196px;
+height : 200px;
+}
+
+.aside_menu{
+display : none;
+}
+
+.category > li a{
+color : black;
+float : left;
+font-size : 20px;
+margin-left : 50px;
+margin-top : 20px;
+}
+
+#section{
+position : relative;
+overflow : auto;
+background-color : #DFDFDF;
+z-index : -1;
+width: 100%;
+}
+
+#section_Wrapper{
+margin-left : 196px;
+min-width : 1000px;
+}
+
+.bestSeller > div:nth-child(1){
+margin-left : 60px;
+margin-top : 40px;
+}
+
+.bestSeller > div:nth-child(1) dt > a{
+color : black;
+font-size : 23px;
+
+}
+.bestSeller > div:nth-child(1) dd > a{
+color : black;
+font-size : 15px;
+line-height : 40px;
+float : left;
+width : 260px;
+}
+
+.plus > a{
+display : inline-block;
+float : right;
+width : 68px;
+height : 30px;
+color : white;
+background-color : #1B8EDA;
+text-align : center;
+line-height : 35px;
+font-size : 14px;
+border-radius : 3px;
+margin-right: 15%;
+}
+
+#bestSellerList > li dt > a, #specialBookList > li dt > a{
+font-size : 15px;
+color : black; 
+width : 160px;
+height : 22px;
+display : inline-block;
+line-height : 31px;
+padding-left : 5px;
+overflow : hidden;
+}
+
+.bookInformation > dd:nth-child(2) > a{
+font-size : 14px;
+color : #9C9C9C;
+margin-top : 10px;
+padding-left : 5px;
+}
+
+.bookInformation > dd:nth-child(3) > a{
+font-size : 13px;
+font-weight : bold;
+color : #1F91DA;
+float : right;
+margin-top : 16px;
+margin-right : 5px;
+}
+
+#bestSeller > div{
+margin-top : 40px;
+margin-left : 40px;
+}
+
+#bestSellerList{
+float : left;
+margin-left : 55px;
+}
+
+#bestSellerList >li{
+float : left;
+margin-bottom : 10px;
+margin-left: 10px; 
+width : 160px;
+height : 330px;
+background-color : white;
+display : inline-block;
+box-shadow : 2px 2px 2px #999;
+}
+
+.bookInformation{
+background-color : white;
+width : 160px;
+height : 85px;
+}
+
+#section img{
+width : 160px;
+height : 245px;
+}
+
+footer{
+color : #7F7F7F;
+position : relative;
+width : 100%;
+background-color : #DFDFDF;
+}
+
+#footer_Wrapper{
+margin-left : 196px;
+min-width : 1000px;
+}
+
+.footerMenu a,span{
+color : #7F7F7F;
+font-size : 13px;
+}
+.footerMenu, .information, .legalNotification{
+margin-left : 40px;
+}
+
+.information{
+margin-top : 20px;
+}
+
+.information, .information > a{
+color : #7F7F7F;
+font-size : 13px;
+}
+
+.legalNotification{
+font-size : 14px;
+}
+
+@media(max-width : 1050px){
+.icon{
+display : none;
+}
+}
